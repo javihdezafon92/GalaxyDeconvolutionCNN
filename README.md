@@ -39,7 +39,7 @@ You will find 5 files in the dataset folder.
 - *multi_PSF_noise_L4, multi_PSF_noise_L5, multi_PSF_noise_L6*: they contain the galaxies affected only by noise (three noise levels, increasing from L4 to L6). These images are the inputs of the models trained only for the denoising problem.
 
 - *multi_PSF_Noise*: is the dataset of galaxies affected by noise and by the PSF effect. These images are the inputs of the models trained for the full deconvolution problem.
--
+
 
 # Get more information
 
