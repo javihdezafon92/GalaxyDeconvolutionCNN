@@ -28,7 +28,7 @@ For the full deconvolution problem, we can increase the spatial resolution of th
 
 ## Data
 
-**IMPORTANT**: Due to the large size of the dataset used, it is not uploaded in the repository. As a temporary solution, you can download it from the following dropbox link: https://www.dropbox.com/s/utfur8x24ij7r8u/data.rar?dl=0
+**IMPORTANT**: *Due to the large size of the dataset used, it is not uploaded in the repository. As a temporary solution, you can download it from the following dropbox link: https://www.dropbox.com/s/utfur8x24ij7r8u/data.rar?dl=0*
 
 The required dataset to train and evaluate the model have been artificially generated using the GalSim software (Rowe et al., 2015). We generate a total of 8 100 galaxies affected by the aberrations and their respective ground truth, and we dedicate 70% of the datasets for training, 20% for validation and 10% for
 testing. As evaluation metrics, we use the peak signal to noise ratio (PSNR) and the structural similarity (SSIM).
