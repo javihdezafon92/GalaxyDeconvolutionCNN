@@ -9,18 +9,21 @@ Poisson noise occurs due to the oscillatory nature of light measurements by opti
 
 Motivated for the recent advances in the field of Deep Learning for image reconstruction, we have built a solution based on convolutional neural network (for astronomic image aberrations removal). We have built the model based on the framework described by Mao, Shen and Yang 2016 for the construction of CNNs specialised in image restoration, using architectures formed by auto encoders and skip connections We have also based our model from the one proposed by Liu Lam 2018 with a proven efficiency for the removal of Poisson noise in natural images (which is also based on the text of Mao et al.)
 
-# References
-
-[1]Liu, P. Y. Lam, E. Y. (2018). Image Reconstruction Using Deep Learning. https://arxiv.org/abs/1809.10410v1
-
-[2]Mao, X., Shen, C., & Yang, Y. B. (2016). Image restoration using very deep convolutional encoder-decoder networks with symmetric skip connections. Advances in neural information processing systems, 29. https://arxiv.org/abs/1603.09056
-
 # Contents
 
 ## Package
+
+- *architectures_V2*: contains the classes that define the architectures of Liu and Lam's model, as well as all the variations made, including our final model, making use of the Keras functions.
+
 
 ## Notebooks
 
 ## Data
 
 # Get more information
+
+# References
+
+[1]Liu, P. Y. Lam, E. Y. (2018). Image Reconstruction Using Deep Learning. https://arxiv.org/abs/1809.10410v1
+
+[2]Mao, X., Shen, C., & Yang, Y. B. (2016). Image restoration using very deep convolutional encoder-decoder networks with symmetric skip connections. Advances in neural information processing systems, 29. https://arxiv.org/abs/1603.09056
